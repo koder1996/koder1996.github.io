@@ -1,28 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mayank Ojha | Technical Consultant</title>
   <style>
-    body { font-family: Arial; margin: 40px; background: #f4f4f4; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
-    input, textarea { width: 100%; margin: 5px 0; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
-    button { padding: 10px 20px; border: none; background: #0077cc; color: white; border-radius: 5px; cursor: pointer; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    h1, h2 {
+      color: #0077cc;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #e0f0ff;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      background: #0077cc;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0077cc;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      section {
+        padding: 20px 10px;
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, I'm Mayank Ojha</h1>
-    <p><strong>Technical Consultant</strong> specializing in Full Stack Development, Data Visualization, and Digital Transformation.</p>
 
+  <header>
+    <h1>Mayank Ojha</h1>
+    <p>Technical Consultant | Full Stack Developer | System Designer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Mayank Ojha, a Technical Consultant with a strong background in full stack development, data visualization, system architecture, and digital transformation. I help organizations streamline their technical solutions using modern web technologies and APIs.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, Django, Node.js</li>
+      <li>Java, PHP, SQL</li>
+      <li>REST APIs, System Design</li>
+      <li>Data Visualization (Power BI, Charts)</li>
+      <li>Project Management & Agile</li>
+    </ul>
+  </section>
+
+  <section class="contact">
     <h2>Contact Me</h2>
-   <form action="https://usebasin.com/f/b737fd84c0ed" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
-  <textarea name="message" rows="5" placeholder="Your Query" required></textarea>
-  <button type="submit">Send Message</button>
-</form>
+    <p>Have a query or want to collaborate? Fill out the form below and I'll get back to you shortly.</p>
+    <form action="https://usebasin.com/f/b737fd84c0ed" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-  </div>
+  <footer>
+    <p>&copy; 2025 Mayank Ojha | Built with ❤️ using GitHub Pages</p>
+  </footer>
+
 </body>
 </html>
