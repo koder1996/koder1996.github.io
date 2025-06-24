@@ -6,64 +6,122 @@
   <title>Mayank Ojha | Technical Consultant</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
+      background: #f5f7fa;
       color: #333;
     }
+
     header {
-      background-color: #0077cc;
+      background-color: #005b99;
       color: white;
-      padding: 40px 20px;
-      text-align: center;
+      padding: 30px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
+
+    .profile-info {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .profile-info img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+
+    .profile-text h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .profile-text p {
+      margin: 5px 0 0;
+    }
+
+    .contact-details {
+      text-align: right;
+    }
+
+    .contact-details p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+
     section {
-      padding: 40px 20px;
-      max-width: 800px;
+      padding: 30px 20px;
+      max-width: 900px;
       margin: auto;
       background: white;
-      margin-bottom: 20px;
-      border-radius: 10px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-    h1, h2 {
-      color: #0077cc;
+
+    h2 {
+      color: #005b99;
+      margin-top: 0;
     }
+
     .skills ul {
+      display: flex;
+      flex-wrap: wrap;
       list-style: none;
       padding: 0;
+      gap: 10px;
     }
+
     .skills li {
       background: #e0f0ff;
-      margin: 5px 0;
-      padding: 10px;
-      border-radius: 5px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
     }
+
     form input, form textarea {
       width: 100%;
       padding: 10px;
       margin-top: 10px;
-      border-radius: 5px;
+      border-radius: 6px;
       border: 1px solid #ccc;
+      font-size: 14px;
     }
+
     form button {
       margin-top: 15px;
       padding: 10px 20px;
       border: none;
-      background: #0077cc;
+      background: #005b99;
       color: white;
-      border-radius: 5px;
+      border-radius: 6px;
       cursor: pointer;
+      font-size: 15px;
     }
+
     footer {
       text-align: center;
       padding: 20px;
-      background: #0077cc;
+      background: #005b99;
       color: white;
+      margin-top: 20px;
     }
+
     @media (max-width: 600px) {
-      section {
-        padding: 20px 10px;
+      .profile-info, .contact-details {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .contact-details {
+        margin-top: 15px;
       }
     }
   </style>
@@ -71,29 +129,70 @@
 <body>
 
   <header>
-    <h1>Mayank Ojha</h1>
-    <p>Technical Consultant | Full Stack Developer | System Designer</p>
+    <div class="profile-info">
+      <img src="https://avatars.githubusercontent.com/u/placeholder?size=100" alt="Mayank Ojha" />
+      <div class="profile-text">
+        <h1>Mayank Ojha</h1>
+        <p>Technical Consultant | Full Stack Developer | System Designer</p>
+      </div>
+    </div>
+    <div class="contact-details">
+      <p>📧 mayankojha294@gmail.com</p>
+      <p>📞 +91-9670071000</p>
+      <p>🌐 <a href="https://www.linkedin.com/in/mayank-ojha-b649a7160/" style="color:white; text-decoration: underline;">LinkedIn</a></p>
+    </div>
   </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Mayank Ojha, a Technical Consultant with a strong background in full stack development, data visualization, system architecture, and digital transformation. I help organizations streamline their technical solutions using modern web technologies and APIs.</p>
-  </section>
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    <strong>Passionate Computer Science Engineer | 6+ Years of Industry Experience | Lifelong Learner & Innovator</strong>
+  </p>
+  <p>
+    Hello! I'm <strong>Mayank Ojha</strong>, a dedicated and dynamic Computer Science Engineer with over 6 years of hands-on experience in the tech industry. Since graduating in 2019, I’ve worked across web and software development, full stack projects, technical consulting, and client engagement — delivering impactful solutions for Government of India initiatives and digital transformation programs.
+  </p>
+  <p>
+    <strong>What I Bring to the Table:</strong>
+    <ul>
+      <li><strong>Technical Proficiency:</strong> Skilled in PHP, JavaScript, Python, Power BI, and SQL — with a focus on leveraging technology to simplify and scale systems.</li>
+      <li><strong>Problem Solver:</strong> I love tackling complex technical challenges and building innovative, real-world solutions.</li>
+      <li><strong>Team Player:</strong> I thrive in collaborative environments and value opportunities to both lead and learn.</li>
+      <li><strong>Continuous Learner:</strong> I actively follow the latest trends in technology, development practices, and business intelligence.</li>
+    </ul>
+  </p>
+  <p>
+    <strong>My Journey So Far:</strong> I began my professional path at <em>CSC - E Governance</em>, contributing to several flagship digital initiatives under the Government of India. These projects helped me understand large-scale system architecture and the real-world impact of software solutions.
+  </p>
+  <p>
+    <strong>What’s Next?</strong> I’m looking to grow further in roles that blend software development, leadership, and business intelligence. I’m open to exciting opportunities, professional connections, and insightful conversations about tech and innovation.
+  </p>
+  <p>
+    <strong>Let’s connect!</strong> Reach out if you'd like to collaborate, network, or chat about emerging tech trends.
+  </p>
+  <p><em>“The road to success is always under construction.”</em></p>
+</section>
 
   <section class="skills">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <ul>
-      <li>Python, Django, Node.js</li>
-      <li>Java, PHP, SQL</li>
-      <li>REST APIs, System Design</li>
-      <li>Data Visualization (Power BI, Charts)</li>
-      <li>Project Management & Agile</li>
+      <li>Python</li>
+      <li>Django</li>
+      <li>Node.js</li>
+      <li>Java</li>
+      <li>PHP</li>
+      <li>SQL</li>
+      <li>REST APIs</li>
+      <li>System Design</li>
+      <li>Power BI</li>
+      <li>JavaScript</li>
+      <li>HTML/CSS</li>
+      <li>Project Management</li>
     </ul>
   </section>
 
   <section class="contact">
     <h2>Contact Me</h2>
-    <p>Have a query or want to collaborate? Fill out the form below and I'll get back to you shortly.</p>
+    <p>Interested in working together or have a question? Fill out the form below and I’ll get back to you soon.</p>
     <form action="https://usebasin.com/f/b737fd84c0ed" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
@@ -103,7 +202,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 Mayank Ojha | Built with ❤️ using GitHub Pages</p>
+    <p>&copy; 2025 Mayank Ojha </p>
   </footer>
 
 </body>
